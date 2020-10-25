@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Area Calculator
+        </title>
+        <link rel="stylesheet" href="AreaCalculator.css">
+    </head>
+    <body>
+        <script src="AreaCalculator.js" lang="javascript"></script>
+        <h1 align="center">Area Calculator</h1>
+        <h2 align="center">Rectangle</h2>
+        <div align="center">
+        <form>
+            Height:
+            <br>
+            <input type="number" id="height">
+            <br>
+            Width:
+            <br>
+            <input type="number" id="width">
+            <br>
+            <input type="button" onClick="rectangle()" value="Click">
+            <br>
+            <p>Area of the rectangle is:</p>
+            
+            <input type="text" id="rarea">
+            <br>
+            
+        </form>
+        </div>
+        <div align="center">
+            <h2>Square</h2>
+            <form>
+                Length:
+                <br>
+                <input type="number" id="length">
+                <br>
+                <input type="button" onClick="square()" value="Click">
+                <br>
+                 <p style>Area of the square is:</p>
+                <input type="text" id="sarea">
+                <br>
+            </form>
+        </div>
+        <div align="center">
+            <h2>Triangle</h2>
+            <form>
+                Base:
+                <br>
+                <input type="number" id="base">
+                <br>
+                Height:
+                <br>
+                <input type="number" id="h">
+                <br>
+                <input type="button" onClick="triangle()" value="Click">
+                <br>
+                <p>Area of the triangle is:</p>
+                <input type="text" id="tarea">
+                <br>
+
+                
+            </form>
+        </div>
+        
+    </body>
+</html>
